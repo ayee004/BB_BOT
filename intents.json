@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [ "Hi", "How are you", "Are you there", "Hey", "Good Morning", "Hello", "Good Afternoon", "Good Evening", "Sup"],
+      "responses": [ "Hi! How may I help you?", "Yes, how can I help", "Hello!", "Welcome!","Hi! Do you have any questions?"]
+    },
+    {
+      "tag": "leaving",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye" ],
+      "responses": [ "See you!", "Have a nice day", "Goodbye", "See You Soon", "Bye Bye", "See you later"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thanks for your help" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure", "You are welcome" ]
+    },
+    {
+      "tag": "noreply",
+      "patterns": [],
+      "responses": [ "Sorry, I don't understand", "Please give me more info!", "Could you repeat your question"]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "What is your name", "Whats your name", "Tell me your name", "Who are you", "Tell me about yourself","are you a robot?", "Hello are you a living person?"],
+      "responses": [ "I am BB_BOT", "My name is BB_BOT", "You can call me BB_BOT", "BB_BOT is my name"]
+    },
+    {
+      "tag": "options",
+      "patterns": [ "What do you do", "How can you help", "What do you know", "What is your purpose", "What can you help me with" ,"what can I ask you", "who am I talking to", "I'm afraid", "I need help", "Can you help me?", "I do not know what to do", "what should I do","I'm afraid and don't know what to do"],
+      "responses": [ "I can answer your questions regarding Covid", "I can help answer your doubts about Covid", "I can answer your Covid related questions" ]
+    },
+    {
+      "tag": "covidinfo",
+      "patterns": [ "Covid", "What can you tell me about Covid", "Covid19", "Tell me about Covid", "What about Covid", "What do you know about Covid", "Tell me more about Covid", "What can you tell me about Covid", "Tell me about Covid", "What about Covid", "What do you know about Covid", "Tell me more about Covid", "What is Corona Virus", "covid what is it", "What is covid", "what is covid-19", "What does covid stand for?", "Is covid a disease?", "I heard about covid what is it?"],
+      "responses": [ "The COVID-19 pandemic, also known as the coronavirus pandemic, is an ongoing global pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The novel virus was first identified in the Chinese city of Wuhan in December 2019" ,"Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention."]
+    },
+    {
+      "tag": "quarantinevisits",
+      "patterns" : ["Can my friends visit me", "Can someone come see me during quarantine", "Is anyone allowed to visit during quarantine?", "What is a safe distance when someone brings me groceries?", "Are quarantined visits allowed?", "Can I receive visits during quarantine?", "If a member of my family is in quarantine, what should I do?","My wife is in quarantine.  Do I need to be as well?", "What if I have a roommate and I'm put under quarantine?", "How am I supposed to be quarantined when I live with other people?", "How can I quarantine if I have family living with me?"],
+
+      "responses": ["Individuals who serve their quarantine at home have to make sure that they have no medically vulnerable family members staying with them and that they are able to isolate themselves alone in a bedroom with an attached toilet and shower. A 1m distance must be adhered to even when receiving food or groceries"]
+    },
+    {
+      "tag": "outsideactivities",
+      "patterns" :["are the local parks open?", "am I safe outside?", "What parks are open?", "can i go to park", "Can I go to the gym or should I avoid it?", "is it dangerous to go outside?", "Will the parks and bike trails remain open?","can i go outside?", "when can I go outside", "is it safe to go outside?","Can I go for a run outside?"],
+      "responses":["All public parks, gyms and facilities are open. However, there is a cap to how many users can enter at one time, and masks must be worn when walking about."]
+    },
+    {
+      "tag": "hospital",
+      "patterns" :["I'm coughing, should I go to the doctor?", "i have a fever. should i go to the hospital?", "I have a cough but am breathing fine, should I go to the hospital or wait?", "I am coughing.  Should I call my doctor?", "how do i know whether to go to the doctor?", "Do I have to go to the hospital if I get COVID", "If I think I have COVID-19, should I see my Dr?","can I go to the hospital?", "Who should I call if I have symptoms?", "Where should I go if I suspect I have coronavirus?","I suspect I have the virus who can I call?", "should i go to the doctor now","should i go to the ER if i have a cough","Should I go to the hospital","Should I make an appointment with my Dr?","Should I see a doctor if I am showing the symptoms?","when did I need to call the doctor?","When do i call a doctor","when should I call a doctor","when should I go to a doctor?","When should I go to the doctor?","When should I go to the hospital?"],
+      "responses":["Even if you have mild respiratory symptoms, you should get it checked out by a doctor", "Please visit a doctor if you are unsure! Be socially responsible and return to the same doctor if needed. This will also help them follow up with your case, and make an appropriate assessment if testing for COVID-19 is needed.", "You should visit a doctor. Even if you have mild symptoms and do not visit a doctor, you should stay at home and rest."]
+    },
+    {
+      "tag": "testing",
+      "patterns": ["Is the covid test able to detect infection even during the incubation period?", "can i get tested","ok - I've got enough of those that I think I need to get tested.", "my friend has it should it get tested", "is there test kit for coronavirus","Is there a test kit for the coronavirus?" ,"is there a test kit for coronavirus", "is there a test for coronavirus", "is there a coronavirus test kit", "Can I get tested at home?", "Is it possible to test for covid 19 during the incubation period?", "coronavirus test kit" ,"can i get tested?", "Should we get tested if we only have symptoms"],
+      "responses": [ "Antigen Rapid Test (ART) self-test kits are made available over the counter for individuals who are worried that they may have COVID-19 and want to put their mind at ease.", "ART screens for SARS-CoV-2, a virus that causes COVID-19. It is a quick screening tool to pick up any possible infection early. The test is easy to do and safe, taking only less than 20 minutes.", "You may purchase ART kits online. ART kits are also available in retail supermarkets, pharmacies and convenience stores."]
+    },
+    {
+      "tag": "events",
+      "patterns": ["Are events being shut down?","How do I know if my concert is cancelled?", "Are groups of people allowed to meet?","Why is the government shutting down my event?", "Should I feel safe going to the movies?", "When will the NHL return?", "events and large gatherings", "Will I get a refund for a ticket I purchased?"],
+      "responses": ["Most events are still available, provided that they are able to adhere to safe distancing regulations", "Availability of events depends on type of activity. Please do check with the venues and organisers if they are able to continue"]
+    }
+  ]
+}
